@@ -1,0 +1,17 @@
+.git
+Dockerfile
+.gitignore
+.dockerignore
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+README*
+kube*
