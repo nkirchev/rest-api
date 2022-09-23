@@ -1,8 +1,6 @@
 include .env
 
-REGISTRY=docker.local
 USERNAME=$(USER)
-NS=nick
 APP_NAME=$(shell basename $(CURDIR))
 SHELL=/bin/bash
 DOCKER_BUILD_CONTEXT=.
